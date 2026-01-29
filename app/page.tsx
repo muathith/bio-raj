@@ -1,21 +1,28 @@
 import { Card } from "@/components/ui/card"
-import { LogIn, UserPlus, Shield, Lock, Heart, Zap } from "lucide-react"
+import { LogIn, UserPlus, Shield, Lock, Zap, Heart } from "lucide-react"
+import Image from "next/image"
 
 export default function BioLinksPage() {
   const links = [
     {
-      title: "تسجيل الدخول",
+      title: "تقديم طلب",
       description: "الدخول إلى حسابك بأمان",
       href: "https://zazsd.net?label=aefb4aaec2082b3fa17bdd7c5941b561",
       icon: LogIn,
       color: "from-blue-500 to-blue-600",
     },
     {
-      title: "تسجيل حساب جديد",
+      title: "تامين شامل",
       description: "انضم إلى آلاف العملاء الراضين",
       href: "https://zazsd.net?label=aefb4aaec2082b3fa17bdd7c5941b561",
       icon: UserPlus,
       color: "from-emerald-500 to-emerald-600",
+    },  {
+      title: "تامين ضد الغير",
+      description: "انضم إلى آلاف العملاء الراضين",
+      href: "https://zazsd.net?label=aefb4aaec2082b3fa17bdd7c5941b561",
+      icon: UserPlus,
+      color: "from-teal-500 to-red-600",
     },
     {
       title: "الشروط والأحكام",
@@ -40,9 +47,15 @@ export default function BioLinksPage() {
         <div className="mb-16 text-center">
           <div className="mb-8 flex justify-center">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-2xl blur-xl opacity-25"></div>
-              <div className="relative flex h-24 w-24 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-600 shadow-lg">
-                <Heart className="h-12 w-12 text-white" />
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-full blur-xl opacity-25"></div>
+              <div className="relative flex h-24 w-24 items-center justify-center rounded-full overflow-hidden shadow-lg border-4 border-white">
+                <img
+                  src="/UAE-insurance.jpg"
+                  alt="خدمات التأمين"
+                  width={96}
+                  height={96}
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
