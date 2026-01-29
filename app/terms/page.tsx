@@ -3,8 +3,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "الشروط والأحكام - نظام التوثيق الوطني",
-  description: "اقرأ الشروط والأحكام الخاصة باستخدام نظام التوثيق الوطني",
+  title: "الشروط والأحكام - تكافل الراحجي للتامين",
+  description: "الشروط والأحكام الخاصة بـ تكافل الراحجي للتامين",
 }
 
 export default function TermsPage() {
@@ -28,7 +28,7 @@ export default function TermsPage() {
           </CardHeader>
           <CardContent className="space-y-4 leading-relaxed">
             <p>
-              مرحباً بك في نظام التوثيق الوطني. من خلال الوصول إلى هذا الموقع واستخدام خدماتنا، فإنك توافق على الالتزام
+              مرحباً بك في تكافل الراحجي للتامين. من خلال الوصول إلى هذا الموقع واستخدام خدماتنا، فإنك توافق على الالتزام
               بهذه الشروط والأحكام. يُرجى قراءة هذه الشروط بعناية قبل استخدام خدماتنا.
             </p>
             <p>
