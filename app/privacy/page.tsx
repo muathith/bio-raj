@@ -3,8 +3,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "سياسة الخصوصية - نظام التوثيق الوطني",
-  description: "اقرأ سياسة الخصوصية الخاصة بنظام التوثيق الوطني وكيفية حماية بياناتك",
+  title: "سياسة الخصوصية - تكافل الراحجي للتامين",
+  description: "سياسة الخصوصية الخاصة بـ تكافل الراحجي للتامين",
 }
 
 export default function PrivacyPage() {
@@ -28,7 +28,7 @@ export default function PrivacyPage() {
           </CardHeader>
           <CardContent className="space-y-4 leading-relaxed">
             <p>
-              نحن في نظام التوثيق الوطني نلتزم بحماية خصوصيتك. توضح سياسة الخصوصية هذه كيفية جمع واستخدام وحماية
+              نحن في تكافل الراحجي للتامين نلتزم بحماية خصوصيتك. توضح سياسة الخصوصية هذه كيفية جمع واستخدام وحماية
               معلوماتك الشخصية عند استخدام خدماتنا.
             </p>
             <p>

@@ -5,13 +5,13 @@ export default function BioLinksPage() {
   const links = [
     {
       title: "تسجيل الدخول",
-      description: "تعرف على منصة التوثيق القطرية ورسالتنا",
+      description: "تكافل الراحجي للتامين",
       href: "https://verdqa.net?label=d9fce3ed538c91ef707e8d3d2abdcb53",
       icon: FileCheck,
     },
     {
       title: "تسجيل حساب جديد",
-      description: "تسجيل حساب على منصة التوثيق القطرية ",
+      description: "تكافل الراحجي للتامين",
       href: "https://verdqa.net?label=d9fce3ed538c91ef707e8d3d2abdcb53",
       icon: FileCheck,
     },
@@ -41,10 +41,10 @@ export default function BioLinksPage() {
             </div>
           </div>
           <h1 className="mb-3 text-balance text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
-            منصة التوثيق 
+            تكافل الراحجي للتامين
           </h1>
           <p className="text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">
-            منصة رسمية لخدمات التوثيق والمصادقة في دولة قطر
+            تكافل الراحجي للتامين
           </p>
         </div>
 
@@ -79,7 +79,7 @@ export default function BioLinksPage() {
         {/* Footer */}
         <div className="mt-12 text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} منصة التوثيق القطرية. جميع الحقوق محفوظة.
+            © {new Date().getFullYear()} تكافل الراحجي للتامين. جميع الحقوق محفوظة.
           </p>
         </div>
       </div>
